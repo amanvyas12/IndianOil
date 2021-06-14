@@ -1,0 +1,216 @@
+You can add global styles to this file, and also import other style files
+
+html, body { height: 100%; width: 100%; background-color: rgb(231, 231, 231);}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.logoMain{
+  height: 50px;
+}
+.logo{
+  height: 50px;
+}
+div.container{
+  margin: 0px 40px;
+  /* background-color: rgb(231, 231, 231); */
+}
+.toolbarDesign{
+  background-color: rgb(231, 231, 231);
+}
+
+.fill-reamining-space{
+  flex: 1 1 auto;
+}
+
+.controles-container
+{
+  width: 100%;
+  padding: 5%;
+}
+
+.controles-container > * {
+  width: 100%;
+}
+
+.button-row button {
+  margin: 5px;
+}
+
+/* notification */
+
+snack-bar-container.success{
+  background-color: #5cb85c;
+  color: #ffffff;
+}
+snack-bar-container.warn{
+  background-color: #f99157;
+  color: #ffffff;
+}
+snack-bar-container.notification simple-snak-bar{
+  font-size: 18px !important;
+  font-weight: bold;
+}
+
+
+.hide{
+  display: none;
+}
+
+mat-footer-row mat-footer-cell{
+  justify-content: center;
+  font-style: italic;
+}
+
+.search-div{
+  margin: 10px 0px 10px 0px;
+  display: flex;
+  width: 100%;
+}
+.search-div .covertPdf{
+  /* left: 100px; */
+  /* padding-left: 50px; */
+  /* float: right; */
+  margin-left: 10px;
+  background-color: #d1d1d1;
+
+
+}
+.createLogo{
+  background-color: #d1d1d1;
+  /* left: 10px; */
+}
+.createLogoPdf{
+  background-color: #d1d1d1;
+  left: 10px;
+
+}
+.search-form-field{
+  top: 1px;
+  width: 68%;
+  height: 28px;
+  margin-left: 10px;
+  padding: 5px 15px;
+  background-color: #d1d1d1;
+  border-radius: 5px;
+  /* background-color: #f99157; */
+}
+.search-form-field div.mat-form-field-underline{
+  display: none;
+}
+.mat-elevation-z8{
+  /* width: 200%; */
+}
+.search-form-field div.mat-form-field-infix{
+  border-top: 0px;
+}
+.search-form-field div.mat-form-field-wrapper{
+  padding-bottom: 0px;
+}
+.search-form-field div.mat-form-field-suffix button{
+  height: 32px;
+  width: 32px;
+}
+
+.fill-remaining-space{
+  flex: 1 1 auto;
+}
+
+.btn-dialog-close{
+  width: 35px;
+  min-width: 0px !important;
+  height: 35px;
+  padding: 0px !important;
+  left: 15px;
+  top: 5px;
+  /* float: right; */
+}
+/* .toolbarLogo{
+  background-image: url("../src/assets/IO.png");
+} */
+@media only screen and (max-width: 700px) {
+  img.logo {
+    display: none;
+  }
+  .btn-dialog-close{
+    width: 35px;
+    min-width: 0px !important;
+    height: 35px;
+    padding: 0px !important;
+    /* left: -15px; */
+    top: -5px;
+    float: right;
+  }
+  .search-div{
+    margin: 10px 10px 10px 10px;
+    display: inline;
+    width: 100%;
+  }
+  .search-form-field{
+    width: 95%;
+    /* max-width: 100%; */
+    margin: 5px 0px 5px 0px;
+  }
+  .createLogo{
+    width: 100%;
+  }
+  .createLogoPdf{
+    width: 100%;
+    margin: 5px 0px 0px 0px;
+    left: 0px;
+  }
+}
+@media only screen and (max-width: 635px) {
+  .search-form-field{
+    width: 95%;
+    /* max-width: 100%; */
+    margin: 5px 0px 5px 0px;
+  }
+  @media only screen and (max-width: 530px) {
+    .search-form-field{
+      width: 93%;
+      /* max-width: 100%; */
+      margin: 5px 0px 5px 0px;
+    }
+  }
+}
+/* @media only screen and (max-width: 1285px) {
+  .createLogoPdf{
+    background-color: #d1d1d1;
+    top: 5px;
+    left: 0px;
+    width: 12.125rem;
+  }
+
+} */
+/* @media only screen and (max-width: 785px) {
+  .createLogo{
+    background-color: #d1d1d1;
+    left: 10px;
+    width: 100%;
+  }
+  .createLogoPdf{
+    background-color: #d1d1d1;
+     top: 10px;
+    top: 5px;
+    left: 0px;
+     text-align: center;
+    width: 100%;
+    justify-content: center;
+  }
+  .search-form-field{
+    top: 5px;
+    width: 95.5%;
+    height: 28px;
+    margin-left: 0px;
+    left: -10px;
+    padding: 5px 15px;
+    background-color: #d1d1d1;
+    border-radius: 5px;
+    background-color: #f99157;
+  }
+  @media only screen and (max-width: 522px) {
+    .search-form-field{
+      width: 25%;
+    }
+  }
+
+} */
